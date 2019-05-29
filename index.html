@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html lang="en" ng-app="mshotel">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MSHotel 1.0</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="app/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="pricing.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+    <h5 class="my-0 mr-md-auto font-weight-normal">MSHotel 1.0</h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="#">Grafik</a>
+        <a class="p-2 text-dark" href="#">Faktury</a>
+        <a class="p-2 text-dark" href="#">Raporty</a>
+    </nav>
+    <a class="btn btn-outline-primary" href="#">Wyloguj</a>
+</div>
+
+<div class="container" ng-controller="MainController">
+    <div class="row">
+        <div class="col-md-6">
+            <input type="text" ng-model="test" mskey="multi">
+        </div>
+        <div class="col-md-6">
+            <br><br><br><br><br><br>
+            <input type="text" ng-model="test2" mskey="numeric">
+        </div>
+    </div>
+</div>
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="app/libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="app/libs/angular.min.js"></script>
+<script src="app/app.js"></script>
+</body>
+</html>
